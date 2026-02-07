@@ -4,10 +4,12 @@
 
 :root {
     --primary-color: rgb(15 23 42 / 1);
+    --text-color: white;
 }
 
 body {
     background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 /* overriding default style that breaks
