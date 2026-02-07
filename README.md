@@ -1,6 +1,9 @@
 # Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.3.
+This project was made using: 
+- Angular 23
+- ngx-bootstrap
+- Tailwind.css
 
 ## Development server
 
