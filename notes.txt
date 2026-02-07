@@ -69,3 +69,25 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 :root {
   --primary-color: #3498db;
 }
+
+////////////////////////////////
+// importing fontawesome icons
+////////////////////////////////
+
+// guided instalation of the packet
+ng add @fortawesome/angular-fontawesome@<version>
+
+// import required module and icons
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
+///////////////////////////////
+// Routing
+///////////////////////////////
+
+// define a route, it will render the component name
+{path: '', component: HomeComponent}
+
+!note: 
+  - using empty path to define the home page
