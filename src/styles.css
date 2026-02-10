@@ -3,13 +3,23 @@
 @import "tailwindcss";
 
 :root {
-    --primary-color: rgb(15 23 42 / 1);
+    --primary-color: #0f172a;
+    --background-2: #0b132b;
     --text-color: white;
+    --clear-emerald: #50C878;
+    --turquoise: #00FFEF;
+    --clear-emerald-2: #02c39a;
+    --turquoise-2: #6fffe9;
+    min-height: 100vh !important;
 }
 
 body {
-    background-color: var(--primary-color);
+    background-color: var(--background-2);
     color: var(--text-color);
+    min-height: 100vh !important;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* overriding default style that breaks
