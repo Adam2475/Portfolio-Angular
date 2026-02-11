@@ -1,0 +1,15 @@
+.project-card {
+    height: 20em;
+    width: 10em;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.project-image {
+    height: 5em;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}

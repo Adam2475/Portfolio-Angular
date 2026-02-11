@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Project } from '../../models/project/project.model';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-project-card',
-  imports: [],
+  imports: [NgIf],
   templateUrl: './project-card.html',
-  styleUrl: './project-card.css',
+  styleUrls: ['./project-card.css'],
 })
 export class ProjectCard {
-
+  @Input() project!: Project;
 }

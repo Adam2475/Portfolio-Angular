@@ -91,3 +91,16 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 !note: 
   - using empty path to define the home page
+
+///////////////////////////////
+// Angular TS
+///////////////////////////////
+
+ngFor: angular template to render lists
+
+Interfaces: using to declare structures
+
+// models are classes
+
+// creating a new model
+ng g class project --type=model

@@ -1,7 +1,27 @@
 #home {
-    width: 100%;
+    width: 97%;
+    margin: 3% !important;
 }
 
 .row {
     width: 100%;
+}
+
+.skills-section {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
