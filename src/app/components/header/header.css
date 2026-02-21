@@ -19,7 +19,7 @@
 .navbar .nav-link,
 .navbar .navbar-brand
 {
-  color: var(--turquoise-2) !important;
+  color: var(--secondary-color) !important;
 }
 
 /* .navbar-collapse {
@@ -28,7 +28,7 @@
 } */
 
 .navbar-toggler {
-    border-color: var(--turquoise-2) !important;
+    border-color: var(--secondary-color) !important;
 }
 
 .navbar-toggler-icon {
