@@ -4,12 +4,12 @@
 
 :root {
     --primary-color: #0f172a;
+    --secondary-color: #6fffe9;
     --background-2: #0b132b;
     --text-color: white;
     --clear-emerald: #50C878;
-    --turquoise: #00FFEF;
     --clear-emerald-2: #02c39a;
-    --turquoise-2: #6fffe9;
+    --turquoise: #00FFEF;
     min-height: 100vh !important;
 }
 

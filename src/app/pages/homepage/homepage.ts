@@ -7,6 +7,10 @@ import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
 import { faJs } from '@fortawesome/free-brands-svg-icons';
 import { faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+// import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 // import { faMySql } from '@fortawesome/free-solid-svg-icons';
 import { Project } from '../../models/project/project.model';
 import { ProjectCard } from '../../components/project-card/project-card';
@@ -27,6 +31,10 @@ export class Homepage
   faCss3Alt = faCss3Alt;
   faJs = faJs;
   faPhp = faPhp;
+  faGraduationCap = faGraduationCap;
+  // faProjectDiagram = faProjectDiagram;
+  faBriefcase = faBriefcase;
+  faUser = faUser;
   // faMySql = faMySql;
 
   projects: Project[] = [
