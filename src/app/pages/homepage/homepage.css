@@ -10,6 +10,7 @@
 .skills-section {
     text-align: center;
     margin-top: 2em;
+    font-size: 2em;
 }
 
 .projects-section {
@@ -34,11 +35,22 @@
     gap: 0.7em;
 }
 
-.skills-section {
-    font-size: 2em;
+.social-icons a {
+    color: var(--text-color);
 }
 
-/* style for inline custom SVG to match FontAwesome icons */
+.skills-section {
+    margin-top: 0 !important;
+}
+
+.skills-section h1 {
+    margin-bottom: 1em;
+}
+
+.social-icon {
+    transition: color 0.3s ease;
+}
+
 .fa-custom {
     width: 1em;
     height: 1em;
@@ -46,4 +58,109 @@
     margin-left: 0.4em;
     display: inline-block;
 }
+
 .fa-custom path { fill: currentColor !important; }
+
+.skill-icon {
+    font-size: 1.3em;
+}
+
+fa-icon,
+.fa-custom,
+.icon-wrapper {
+    display: inline-block;
+    transition: transform 0.28s ease, color 0.28s ease;
+    transform-origin: center center;
+}
+
+fa-icon:hover,
+fa-icon:focus,
+.fa-custom:hover,
+.fa-custom:focus,
+.icon-wrapper:hover,
+.icon-wrapper:focus {
+    transform: scale(1.18);
+    color: var(--clear-emerald);
+}
+
+/* ////////////// */
+/* Custom Tooltip */
+/* ////////////// */
+
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .12s ease, transform .12s ease;
+    z-index: 1000;
+}
+
+[data-tooltip]::before {
+    content: "";
+    position: absolute;
+    bottom: 115%;
+    left: 50%;
+    transform: translateX(-50%) translateY(6px);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.85) transparent transparent transparent;
+    opacity: 0;
+    transition: opacity .12s ease, transform .12s ease;
+    z-index: 1000;
+}
+
+[data-tooltip]:hover::after,
+[data-tooltip]:focus::after,
+[data-tooltip]:hover::before,
+[data-tooltip]:focus::before {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+[data-tooltip][tabindex="0"] { outline: none; }
+
+/* //////////////////////// */
+/* Custom Typewriter effect */
+/* //////////////////////// */
+
+.presentation {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.type {
+  font-family: monospace;
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+    linear-gradient(#00DFFC 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+    b .7s infinite steps(1),   
+    t calc(var(--n)*.1s) steps(var(--n)) forwards;
+}
+@keyframes t{
+  from {background-size:0 200%}
+}
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
+

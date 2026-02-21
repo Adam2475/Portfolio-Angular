@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';  
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';  
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -14,7 +15,7 @@ import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-homepage',
-  imports: [FontAwesomeModule, ProjectCard, NgFor],
+  imports: [FontAwesomeModule, ProjectCard, NgFor, TooltipModule],
   templateUrl: './homepage.html',
   styleUrls: ['./homepage.css'],
 })

@@ -2,11 +2,12 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 // import { ProjectCard } from './components/project-card/project-card';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Footer],
+  imports: [RouterOutlet, Header, Footer, TooltipModule],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
