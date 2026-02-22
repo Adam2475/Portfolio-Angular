@@ -11,6 +11,7 @@ import { faPhp } from '@fortawesome/free-brands-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 // import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faAngular } from '@fortawesome/free-brands-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 // import { faMySql } from '@fortawesome/free-solid-svg-icons';
 import { Project } from '../../models/project/project.model';
@@ -31,6 +32,7 @@ export class Homepage
   faHtml5 = faHtml5;
   faCss3Alt = faCss3Alt;
   faJs = faJs;
+  faAngular = faAngular;
   faPhp = faPhp;
   faGraduationCap = faGraduationCap;
   // faProjectDiagram = faProjectDiagram;

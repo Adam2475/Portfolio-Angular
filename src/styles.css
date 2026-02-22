@@ -5,12 +5,22 @@
 :root {
     --primary-color: #0f172a;
     --secondary-color: #6fffe9;
+    --tertiary-color: aliceblue;
     --background-2: #0b132b;
-    --text-color: white;
+    --text-color: aliceblue;
     --clear-emerald: #50C878;
     --clear-emerald-2: #02c39a;
     --turquoise: #00FFEF;
     min-height: 100vh !important;
+    --instagram-color: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+    --linkedin-color: #0077B5;
+    --github-color: #555;
+    --html-color: #e34c26;
+    --css-color: #2965f1;
+    --php-color: #777bb4;
+    --js-color: #f0db4f;
+    --mysql-color: #00758f;
+    --angular-color: #dd0031;
 }
 
 body {
@@ -20,6 +30,11 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+/* Instagram gradient icon */
+#instagram-icon:hover svg path {
+    fill: url(#instagram-gradient) !important;
 }
 
 /* overriding default style that breaks
