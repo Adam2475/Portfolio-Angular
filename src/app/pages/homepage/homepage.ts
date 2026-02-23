@@ -16,7 +16,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 // import { faMySql } from '@fortawesome/free-solid-svg-icons';
 import { Project } from '../../models/project/project.model';
 import { ProjectCard } from '../../components/project-card/project-card';
-import { NgFor } from '@angular/common';
+// import { NgFor } from '@angular/common';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
 
