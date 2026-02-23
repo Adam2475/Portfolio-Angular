@@ -9,7 +9,7 @@ a {
 }
 
 #icon-section {
-    margin-top: -4px;
+    margin-top: 0.1em;
     gap: 0.6em;
     padding: 0.5em;
 }
@@ -21,7 +21,7 @@ li:hover {
 #copy-section {
     margin-left: 1em;
     padding: 0.4em;
-    margin-top: 0.4em;
+    margin-top: -2px;
     font-size: 0.9em;
     margin-bottom: -6px;
 }

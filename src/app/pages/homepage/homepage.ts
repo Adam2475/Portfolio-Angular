@@ -17,6 +17,8 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Project } from '../../models/project/project.model';
 import { ProjectCard } from '../../components/project-card/project-card';
 import { NgFor } from '@angular/common';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-homepage',
@@ -35,8 +37,10 @@ export class Homepage
   faAngular = faAngular;
   faPhp = faPhp;
   faGraduationCap = faGraduationCap;
+  faAddressBook = faAddressBook;
   // faProjectDiagram = faProjectDiagram;
   faBriefcase = faBriefcase;
+  faEnvelope = faEnvelope;
   faUser = faUser;
   // faMySql = faMySql;
 
