@@ -1,5 +1,27 @@
 footer {
     padding: 0.5em;
     width: 100%;
-    margin-top: auto;
+}
+
+a {
+    color: var(--tertiary-color);
+    font-size: 1.3em;
+}
+
+#icon-section {
+    margin-top: -4px;
+    gap: 0.6em;
+    padding: 0.5em;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
+#copy-section {
+    margin-left: 1em;
+    padding: 0.4em;
+    margin-top: 0.4em;
+    font-size: 0.9em;
+    margin-bottom: -6px;
 }

@@ -20,7 +20,7 @@ import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-homepage',
-  imports: [FontAwesomeModule, ProjectCard, NgFor, TooltipModule],
+  imports: [FontAwesomeModule, TooltipModule],
   templateUrl: './homepage.html',
   styleUrls: ['./homepage.css'],
 })
