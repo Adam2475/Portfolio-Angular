@@ -1,7 +1,7 @@
 # Portfolio
 
 This project was made using: 
-- Angular 23
+- Angular 21
 - ngx-bootstrap
 - Tailwind.css
 - Font Awesome 7
