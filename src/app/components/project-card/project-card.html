@@ -1,8 +1,7 @@
-<div class="project-card">
+<a class="project-card" [href]="project.link" target="_blank" rel="noopener">
   <img [src]="project.imageUrl" [alt]="project.title" class="project-image" />
   <div class="project-overlay">
     <h3 class="project-title">{{ project.title }}</h3>
     <p class="project-desc">{{ project.description }}</p>
-    <a *ngIf="project.link" class="project-link" [href]="project.link" target="_blank" rel="noopener">Live</a>
   </div>
-</div>
+</a>

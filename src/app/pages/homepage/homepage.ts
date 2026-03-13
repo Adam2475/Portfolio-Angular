@@ -45,9 +45,12 @@ export class Homepage
   // faMySql = faMySql;
 
   projects: Project[] = [
-    { id:1, title:'My App', description:'A short summary', imageUrl:'./test.png', link:'https://...' },
-    { id:2, title:'Another', description:'Another summary', imageUrl:'./test.png' },
-    { id:3, title:'Another', description:'Another summary', imageUrl:'./test.png' },
-    { id:4, title:'Another', description:'Another summary', imageUrl:'./test.png' }
+    { 
+      id:1, 
+      title:'Minishell', 
+      description:'A replica of the bash shell written in C.', 
+      imageUrl:'./minishell.png', 
+      link:'https://adam2475.github.io/Minishell-v86-Deploy/' 
+    }
   ];
 }
