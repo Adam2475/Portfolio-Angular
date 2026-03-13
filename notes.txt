@@ -104,3 +104,10 @@ Interfaces: using to declare structures
 
 // creating a new model
 ng g class project --type=model
+
+///////////////////////
+// Deployment
+///////////////////////
+
+npm run build -- --base-href=/Portfolio-Angular/
+git subtree push --prefix=dist/porfolio/browser origin deploy2
