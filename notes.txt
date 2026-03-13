@@ -111,3 +111,8 @@ ng g class project --type=model
 
 npm run build -- --base-href=/Portfolio-Angular/
 git subtree push --prefix=dist/porfolio/browser origin deploy2
+
+or if dont work:
+
+SPLIT=$(git subtree split --prefix=dist/portfolio/browser HEAD)
+git push --force-with-lease origin "$SPLIT":deploy2
